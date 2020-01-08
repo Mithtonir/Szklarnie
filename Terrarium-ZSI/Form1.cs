@@ -9,7 +9,7 @@ namespace Terrarium_ZSI
     {
         public double[,] Transponowana = new double[61, 5];
         public double[,] TransponowanaWilgotnosc = new double[61, 5];
-
+        //Witam witam
         public int TemperaturaDocelowa = 0;
         public int TemperaturaStarowa = 0;
         public int iter = 1;
