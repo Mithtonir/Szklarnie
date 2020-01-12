@@ -63,9 +63,9 @@ namespace Terrarium_ZSI.Properties {
         /// <summary>
         ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap agama {
+        internal static System.Drawing.Bitmap ananas {
             get {
-                object obj = ResourceManager.GetObject("agama", resourceCulture);
+                object obj = ResourceManager.GetObject("ananas", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

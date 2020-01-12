@@ -43,7 +43,7 @@
             System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.rbLamparci = new System.Windows.Forms.RadioButton();
             this.rbOrzesiony = new System.Windows.Forms.RadioButton();
-            this.rbAgama = new System.Windows.Forms.RadioButton();
+            this.rbAnanas = new System.Windows.Forms.RadioButton();
             this.rbPlaczacy = new System.Windows.Forms.RadioButton();
             this.rbZolw = new System.Windows.Forms.RadioButton();
             this.rbWaz = new System.Windows.Forms.RadioButton();
@@ -130,23 +130,23 @@
             this.rbOrzesiony.UseVisualStyleBackColor = true;
             this.rbOrzesiony.CheckedChanged += new System.EventHandler(this.rbOrzesiony_CheckedChanged);
             // 
-            // rbAgama
+            // rbAnanas
             // 
-            this.rbAgama.AutoSize = true;
-            this.rbAgama.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.rbAgama.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.rbAgama.Image = global::Terrarium_ZSI.Properties.Resources.agama;
-            this.rbAgama.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.rbAgama.Location = new System.Drawing.Point(450, 14);
-            this.rbAgama.Name = "rbAgama";
-            this.rbAgama.Size = new System.Drawing.Size(133, 119);
-            this.rbAgama.TabIndex = 5;
-            this.rbAgama.TabStop = true;
-            this.rbAgama.Text = "Agama Brodata";
-            this.rbAgama.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.rbAgama.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.rbAgama.UseVisualStyleBackColor = true;
-            this.rbAgama.CheckedChanged += new System.EventHandler(this.rbAgama_CheckedChanged);
+            this.rbAnanas.AutoSize = true;
+            this.rbAnanas.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.rbAnanas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.rbAnanas.Image = global::Terrarium_ZSI.Properties.Resources.ananas;
+            this.rbAnanas.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.rbAnanas.Location = new System.Drawing.Point(450, 14);
+            this.rbAnanas.Name = "rbAnanas";
+            this.rbAnanas.Size = new System.Drawing.Size(133, 119);
+            this.rbAnanas.TabIndex = 5;
+            this.rbAnanas.TabStop = true;
+            this.rbAnanas.Text = "Ananas";
+            this.rbAnanas.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.rbAnanas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.rbAnanas.UseVisualStyleBackColor = true;
+            this.rbAnanas.CheckedChanged += new System.EventHandler(this.rbAnanas_CheckedChanged);
             // 
             // rbPlaczacy
             // 
@@ -682,7 +682,7 @@
             this.Controls.Add(this.tbarTemperatura);
             this.Controls.Add(this.rbZolw);
             this.Controls.Add(this.rbWaz);
-            this.Controls.Add(this.rbAgama);
+            this.Controls.Add(this.rbAnanas);
             this.Controls.Add(this.rbPlaczacy);
             this.Controls.Add(this.rbOrzesiony);
             this.Controls.Add(this.rbLamparci);
@@ -703,7 +703,7 @@
 
         private System.Windows.Forms.RadioButton rbLamparci;
         private System.Windows.Forms.RadioButton rbOrzesiony;
-        private System.Windows.Forms.RadioButton rbAgama;
+        private System.Windows.Forms.RadioButton rbAnanas;
         private System.Windows.Forms.RadioButton rbPlaczacy;
         private System.Windows.Forms.RadioButton rbZolw;
         private System.Windows.Forms.RadioButton rbWaz;

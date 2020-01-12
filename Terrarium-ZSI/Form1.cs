@@ -34,7 +34,7 @@ namespace Terrarium_ZSI
 
         public Temperatura temperatura = new Temperatura();
         public Wilgotnosc wilgotnosc = new Wilgotnosc();
-        public Plant Lamparci, Orzesiony, Placzacy, Waz, Zolw, Agama;
+        public Plant Lamparci, Orzesiony, Placzacy, Waz, Zolw, Ananas;
         Logika logika = new Logika();
 
         public Form1()
@@ -549,13 +549,13 @@ namespace Terrarium_ZSI
             OdswiezWykres();
         }
 
-        private void rbAgama_CheckedChanged(object sender, EventArgs e)
+        private void rbAnanas_CheckedChanged(object sender, EventArgs e)
         {
-            lbSredniaTemperatura.Text = Agama.SredniaTemperatura.ToString();
-            lbSredniaWilgotnosc.Text = Agama.Wilgotnosc.ToString();
+            lbSredniaTemperatura.Text = Ananas.SredniaTemperatura.ToString();
+            lbSredniaWilgotnosc.Text = Ananas.Wilgotnosc.ToString();
 
-            Srednia = Agama.SredniaTemperatura;
-            SredniaWilgotnosc = Agama.Wilgotnosc;
+            Srednia = Ananas.SredniaTemperatura;
+            SredniaWilgotnosc = Ananas.Wilgotnosc;
 
             OdswiezWykres();
         }
@@ -708,10 +708,10 @@ namespace Terrarium_ZSI
                 TempMax = Lamparci.MaksymalnaTemperatura;
             }
 
-            if (rbAgama.Checked)
+            if (rbAnanas.Checked)
             {
-                TempMin = Agama.MinimalnaTemperatura;
-                TempMax = Agama.MaksymalnaTemperatura;
+                TempMin = Ananas.MinimalnaTemperatura;
+                TempMax = Ananas.MaksymalnaTemperatura;
             }
 
             if (rbOrzesiony.Checked)
@@ -771,11 +771,11 @@ namespace Terrarium_ZSI
             Zolw.Wilgotnosc = 45;
             Zolw.SetSredniaTemperatura();
 
-            Agama = new Plant();
-            Agama.MinimalnaTemperatura = 38;
-            Agama.MaksymalnaTemperatura = 40;
-            Agama.Wilgotnosc = 55;
-            Agama.SetSredniaTemperatura();
+            Ananas = new Plant();
+            Ananas.MinimalnaTemperatura = 38;
+            Ananas.MaksymalnaTemperatura = 40;
+            Ananas.Wilgotnosc = 55;
+            Ananas.SetSredniaTemperatura();
         }
     }
 }

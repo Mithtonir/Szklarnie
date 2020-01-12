@@ -105,7 +105,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Zdjecia\agama.png" />
+    <Content Include="Zdjecia\ananas.png" />
     <Content Include="Zdjecia\lamparci.png" />
     <Content Include="Zdjecia\orzesiony.png" />
     <Content Include="Zdjecia\placzacy.png" />
