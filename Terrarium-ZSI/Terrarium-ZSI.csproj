@@ -106,7 +106,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Zdjecia\ananas.png" />
+    <None Include="Zdjecia\banan.png" />
+    <None Include="Zdjecia\cytryna.png" />
+    <None Include="Zdjecia\figa.png" />
+    <None Include="Zdjecia\arbuz.png" />
     <Content Include="Zdjecia\lamparci.png" />
+    <None Include="Zdjecia\mango.png" />
     <Content Include="Zdjecia\orzesiony.png" />
     <Content Include="Zdjecia\placzacy.png" />
     <Content Include="Zdjecia\zbozowy.png" />

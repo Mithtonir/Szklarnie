@@ -41,12 +41,6 @@
             System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            this.rbLamparci = new System.Windows.Forms.RadioButton();
-            this.rbOrzesiony = new System.Windows.Forms.RadioButton();
-            this.rbAnanas = new System.Windows.Forms.RadioButton();
-            this.rbPlaczacy = new System.Windows.Forms.RadioButton();
-            this.rbZolw = new System.Windows.Forms.RadioButton();
-            this.rbWaz = new System.Windows.Forms.RadioButton();
             this.tbarTemperatura = new System.Windows.Forms.TrackBar();
             this.lbTemperatura = new System.Windows.Forms.Label();
             this.tboxTemperatura = new System.Windows.Forms.TextBox();
@@ -87,120 +81,18 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.rbBanan = new System.Windows.Forms.RadioButton();
+            this.rbMango = new System.Windows.Forms.RadioButton();
+            this.rbAnanas = new System.Windows.Forms.RadioButton();
+            this.rbCytryna = new System.Windows.Forms.RadioButton();
+            this.rbFiga = new System.Windows.Forms.RadioButton();
+            this.rbArbuz = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.tbarTemperatura)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbarWilgotnosc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbZewnatrz)).BeginInit();
             this.SuspendLayout();
-            // 
-            // rbLamparci
-            // 
-            this.rbLamparci.AutoSize = true;
-            this.rbLamparci.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.rbLamparci.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.rbLamparci.Image = global::Terrarium_ZSI.Properties.Resources.lamparci;
-            this.rbLamparci.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.rbLamparci.Location = new System.Drawing.Point(12, 12);
-            this.rbLamparci.Name = "rbLamparci";
-            this.rbLamparci.Size = new System.Drawing.Size(140, 121);
-            this.rbLamparci.TabIndex = 2;
-            this.rbLamparci.TabStop = true;
-            this.rbLamparci.Text = "Gekon Lamparci";
-            this.rbLamparci.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.rbLamparci.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.rbLamparci.UseVisualStyleBackColor = true;
-            this.rbLamparci.CheckedChanged += new System.EventHandler(this.rbLamparci_CheckedChanged);
-            // 
-            // rbOrzesiony
-            // 
-            this.rbOrzesiony.AutoSize = true;
-            this.rbOrzesiony.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.rbOrzesiony.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.rbOrzesiony.Image = global::Terrarium_ZSI.Properties.Resources.orzesiony;
-            this.rbOrzesiony.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.rbOrzesiony.Location = new System.Drawing.Point(158, 8);
-            this.rbOrzesiony.Name = "rbOrzesiony";
-            this.rbOrzesiony.Size = new System.Drawing.Size(132, 125);
-            this.rbOrzesiony.TabIndex = 3;
-            this.rbOrzesiony.TabStop = true;
-            this.rbOrzesiony.Text = "Gekon Orzęsiony";
-            this.rbOrzesiony.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.rbOrzesiony.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.rbOrzesiony.UseVisualStyleBackColor = true;
-            this.rbOrzesiony.CheckedChanged += new System.EventHandler(this.rbOrzesiony_CheckedChanged);
-            // 
-            // rbAnanas
-            // 
-            this.rbAnanas.AutoSize = true;
-            this.rbAnanas.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.rbAnanas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.rbAnanas.Image = global::Terrarium_ZSI.Properties.Resources.ananas;
-            this.rbAnanas.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.rbAnanas.Location = new System.Drawing.Point(450, 14);
-            this.rbAnanas.Name = "rbAnanas";
-            this.rbAnanas.Size = new System.Drawing.Size(133, 119);
-            this.rbAnanas.TabIndex = 5;
-            this.rbAnanas.TabStop = true;
-            this.rbAnanas.Text = "Ananas";
-            this.rbAnanas.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.rbAnanas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.rbAnanas.UseVisualStyleBackColor = true;
-            this.rbAnanas.CheckedChanged += new System.EventHandler(this.rbAnanas_CheckedChanged);
-            // 
-            // rbPlaczacy
-            // 
-            this.rbPlaczacy.AutoSize = true;
-            this.rbPlaczacy.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.rbPlaczacy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.rbPlaczacy.Image = global::Terrarium_ZSI.Properties.Resources.placzacy;
-            this.rbPlaczacy.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.rbPlaczacy.Location = new System.Drawing.Point(304, -6);
-            this.rbPlaczacy.Name = "rbPlaczacy";
-            this.rbPlaczacy.Size = new System.Drawing.Size(151, 139);
-            this.rbPlaczacy.TabIndex = 4;
-            this.rbPlaczacy.TabStop = true;
-            this.rbPlaczacy.Text = "Gekon Płaczący";
-            this.rbPlaczacy.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.rbPlaczacy.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.rbPlaczacy.UseVisualStyleBackColor = true;
-            this.rbPlaczacy.CheckedChanged += new System.EventHandler(this.rbPlaczacy_CheckedChanged);
-            // 
-            // rbZolw
-            // 
-            this.rbZolw.AutoSize = true;
-            this.rbZolw.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.rbZolw.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.rbZolw.Image = global::Terrarium_ZSI.Properties.Resources.zlow;
-            this.rbZolw.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.rbZolw.Location = new System.Drawing.Point(742, 22);
-            this.rbZolw.Name = "rbZolw";
-            this.rbZolw.Size = new System.Drawing.Size(119, 111);
-            this.rbZolw.TabIndex = 7;
-            this.rbZolw.TabStop = true;
-            this.rbZolw.Text = "Żółw Lamparci";
-            this.rbZolw.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.rbZolw.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.rbZolw.UseVisualStyleBackColor = true;
-            this.rbZolw.CheckedChanged += new System.EventHandler(this.rbZolw_CheckedChanged);
-            // 
-            // rbWaz
-            // 
-            this.rbWaz.AutoSize = true;
-            this.rbWaz.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.rbWaz.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.rbWaz.Image = global::Terrarium_ZSI.Properties.Resources.zbozowy;
-            this.rbWaz.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.rbWaz.Location = new System.Drawing.Point(596, 15);
-            this.rbWaz.Name = "rbWaz";
-            this.rbWaz.Size = new System.Drawing.Size(146, 118);
-            this.rbWaz.TabIndex = 6;
-            this.rbWaz.TabStop = true;
-            this.rbWaz.Text = "Wąż zbożowy";
-            this.rbWaz.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.rbWaz.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.rbWaz.UseVisualStyleBackColor = true;
-            this.rbWaz.CheckedChanged += new System.EventHandler(this.rbWaz_CheckedChanged);
             // 
             // tbarTemperatura
             // 
@@ -636,11 +528,119 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // rbZolw
+            // 
+            this.rbBanan.AutoSize = true;
+            this.rbBanan.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.rbBanan.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.rbBanan.Image = global::Terrarium_ZSI.Properties.Resources.banan;
+            this.rbBanan.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.rbBanan.Location = new System.Drawing.Point(739, 22);
+            this.rbBanan.Name = "rbZolw";
+            this.rbBanan.Size = new System.Drawing.Size(100, 111);
+            this.rbBanan.TabIndex = 7;
+            this.rbBanan.TabStop = true;
+            this.rbBanan.Text = "Banan";
+            this.rbBanan.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.rbBanan.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.rbBanan.UseVisualStyleBackColor = true;
+            this.rbBanan.CheckedChanged += new System.EventHandler(this.rbZolw_CheckedChanged);
+            // 
+            // rbWaz
+            // 
+            this.rbMango.AutoSize = true;
+            this.rbMango.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.rbMango.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.rbMango.Image = global::Terrarium_ZSI.Properties.Resources.mango;
+            this.rbMango.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.rbMango.Location = new System.Drawing.Point(610, 3);
+            this.rbMango.Name = "rbWaz";
+            this.rbMango.Size = new System.Drawing.Size(100, 130);
+            this.rbMango.TabIndex = 6;
+            this.rbMango.TabStop = true;
+            this.rbMango.Text = "Mango";
+            this.rbMango.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.rbMango.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.rbMango.UseVisualStyleBackColor = true;
+            this.rbMango.CheckedChanged += new System.EventHandler(this.rbWaz_CheckedChanged);
+            // 
+            // rbAnanas
+            // 
+            this.rbAnanas.AutoSize = true;
+            this.rbAnanas.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.rbAnanas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.rbAnanas.Image = global::Terrarium_ZSI.Properties.Resources.ananas;
+            this.rbAnanas.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.rbAnanas.Location = new System.Drawing.Point(481, 3);
+            this.rbAnanas.Name = "rbAnanas";
+            this.rbAnanas.Size = new System.Drawing.Size(100, 130);
+            this.rbAnanas.TabIndex = 5;
+            this.rbAnanas.TabStop = true;
+            this.rbAnanas.Text = "Ananas";
+            this.rbAnanas.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.rbAnanas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.rbAnanas.UseVisualStyleBackColor = true;
+            this.rbAnanas.CheckedChanged += new System.EventHandler(this.rbAnanas_CheckedChanged);
+            // 
+            // rbPlaczacy
+            // 
+            this.rbCytryna.AutoSize = true;
+            this.rbCytryna.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.rbCytryna.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.rbCytryna.Image = global::Terrarium_ZSI.Properties.Resources.cytryna;
+            this.rbCytryna.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.rbCytryna.Location = new System.Drawing.Point(333, 25);
+            this.rbCytryna.Name = "rbPlaczacy";
+            this.rbCytryna.Size = new System.Drawing.Size(100, 108);
+            this.rbCytryna.TabIndex = 4;
+            this.rbCytryna.TabStop = true;
+            this.rbCytryna.Text = "Cytryna";
+            this.rbCytryna.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.rbCytryna.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.rbCytryna.UseVisualStyleBackColor = true;
+            this.rbCytryna.CheckedChanged += new System.EventHandler(this.rbPlaczacy_CheckedChanged);
+            // 
+            // rbOrzesiony
+            // 
+            this.rbFiga.AutoSize = true;
+            this.rbFiga.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.rbFiga.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.rbFiga.Image = global::Terrarium_ZSI.Properties.Resources.figa1;
+            this.rbFiga.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.rbFiga.Location = new System.Drawing.Point(190, 7);
+            this.rbFiga.Name = "rbOrzesiony";
+            this.rbFiga.Size = new System.Drawing.Size(90, 126);
+            this.rbFiga.TabIndex = 3;
+            this.rbFiga.TabStop = true;
+            this.rbFiga.Text = "Figa";
+            this.rbFiga.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.rbFiga.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.rbFiga.UseVisualStyleBackColor = true;
+            this.rbFiga.CheckedChanged += new System.EventHandler(this.rbOrzesiony_CheckedChanged);
+            // 
+            // rbLamparci
+            // 
+            this.rbArbuz.AutoSize = true;
+            this.rbArbuz.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.rbArbuz.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.rbArbuz.Image = global::Terrarium_ZSI.Properties.Resources.arbuz;
+            this.rbArbuz.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.rbArbuz.Location = new System.Drawing.Point(45, 33);
+            this.rbArbuz.Name = "rbLamparci";
+            this.rbArbuz.Size = new System.Drawing.Size(120, 100);
+            this.rbArbuz.TabIndex = 2;
+            this.rbArbuz.TabStop = true;
+            this.rbArbuz.Text = "Arbuz";
+            this.rbArbuz.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.rbArbuz.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.rbArbuz.UseVisualStyleBackColor = true;
+            this.rbArbuz.CheckedChanged += new System.EventHandler(this.rbLamparci_CheckedChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(965, 812);
+            this.ClientSize = new System.Drawing.Size(965, 750);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -680,12 +680,12 @@
             this.Controls.Add(this.tboxTemperatura);
             this.Controls.Add(this.lbTemperatura);
             this.Controls.Add(this.tbarTemperatura);
-            this.Controls.Add(this.rbZolw);
-            this.Controls.Add(this.rbWaz);
+            this.Controls.Add(this.rbBanan);
+            this.Controls.Add(this.rbMango);
             this.Controls.Add(this.rbAnanas);
-            this.Controls.Add(this.rbPlaczacy);
-            this.Controls.Add(this.rbOrzesiony);
-            this.Controls.Add(this.rbLamparci);
+            this.Controls.Add(this.rbCytryna);
+            this.Controls.Add(this.rbFiga);
+            this.Controls.Add(this.rbArbuz);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -701,12 +701,12 @@
 
         #endregion
 
-        private System.Windows.Forms.RadioButton rbLamparci;
-        private System.Windows.Forms.RadioButton rbOrzesiony;
+        private System.Windows.Forms.RadioButton rbArbuz;
+        private System.Windows.Forms.RadioButton rbFiga;
         private System.Windows.Forms.RadioButton rbAnanas;
-        private System.Windows.Forms.RadioButton rbPlaczacy;
-        private System.Windows.Forms.RadioButton rbZolw;
-        private System.Windows.Forms.RadioButton rbWaz;
+        private System.Windows.Forms.RadioButton rbCytryna;
+        private System.Windows.Forms.RadioButton rbBanan;
+        private System.Windows.Forms.RadioButton rbMango;
         private System.Windows.Forms.TrackBar tbarTemperatura;
         private System.Windows.Forms.Label lbTemperatura;
         private System.Windows.Forms.TextBox tboxTemperatura;

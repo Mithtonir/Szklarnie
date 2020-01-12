@@ -34,7 +34,7 @@ namespace Terrarium_ZSI
 
         public Temperatura temperatura = new Temperatura();
         public Wilgotnosc wilgotnosc = new Wilgotnosc();
-        public Plant Lamparci, Orzesiony, Placzacy, Waz, Zolw, Ananas;
+        public Plant Arbuz, Figa, Cytryna, Mango, Banan, Ananas;
         Logika logika = new Logika();
 
         public Form1()
@@ -518,33 +518,33 @@ namespace Terrarium_ZSI
 
         private void rbLamparci_CheckedChanged(object sender, EventArgs e)
         {
-            lbSredniaTemperatura.Text = Lamparci.SredniaTemperatura.ToString();
-            lbSredniaWilgotnosc.Text = Lamparci.Wilgotnosc.ToString();
+            lbSredniaTemperatura.Text = Arbuz.SredniaTemperatura.ToString();
+            lbSredniaWilgotnosc.Text = Arbuz.Wilgotnosc.ToString();
 
-            Srednia = Lamparci.SredniaTemperatura;
-            SredniaWilgotnosc = Lamparci.Wilgotnosc;
+            Srednia = Arbuz.SredniaTemperatura;
+            SredniaWilgotnosc = Arbuz.Wilgotnosc;
 
             OdswiezWykres();
         }
 
         private void rbOrzesiony_CheckedChanged(object sender, EventArgs e)
         {
-            lbSredniaTemperatura.Text = Orzesiony.SredniaTemperatura.ToString();
-            lbSredniaWilgotnosc.Text = Orzesiony.Wilgotnosc.ToString();
+            lbSredniaTemperatura.Text = Figa.SredniaTemperatura.ToString();
+            lbSredniaWilgotnosc.Text = Figa.Wilgotnosc.ToString();
 
-            Srednia = Orzesiony.SredniaTemperatura;
-            SredniaWilgotnosc = Orzesiony.Wilgotnosc;
+            Srednia = Figa.SredniaTemperatura;
+            SredniaWilgotnosc = Figa.Wilgotnosc;
 
             OdswiezWykres();
         }
 
         private void rbPlaczacy_CheckedChanged(object sender, EventArgs e)
         {
-            lbSredniaTemperatura.Text = Placzacy.SredniaTemperatura.ToString();
-            lbSredniaWilgotnosc.Text = Placzacy.Wilgotnosc.ToString();
+            lbSredniaTemperatura.Text = Cytryna.SredniaTemperatura.ToString();
+            lbSredniaWilgotnosc.Text = Cytryna.Wilgotnosc.ToString();
 
-            Srednia = Placzacy.SredniaTemperatura;
-            SredniaWilgotnosc = Placzacy.Wilgotnosc;
+            Srednia = Cytryna.SredniaTemperatura;
+            SredniaWilgotnosc = Cytryna.Wilgotnosc;
 
             OdswiezWykres();
         }
@@ -562,22 +562,22 @@ namespace Terrarium_ZSI
 
         private void rbWaz_CheckedChanged(object sender, EventArgs e)
         {
-            lbSredniaTemperatura.Text = Waz.SredniaTemperatura.ToString();
-            lbSredniaWilgotnosc.Text = Waz.Wilgotnosc.ToString();
+            lbSredniaTemperatura.Text = Mango.SredniaTemperatura.ToString();
+            lbSredniaWilgotnosc.Text = Mango.Wilgotnosc.ToString();
 
-            Srednia = Waz.SredniaTemperatura;
-            SredniaWilgotnosc = Waz.Wilgotnosc;
+            Srednia = Mango.SredniaTemperatura;
+            SredniaWilgotnosc = Mango.Wilgotnosc;
 
             OdswiezWykres();
         }
 
         private void rbZolw_CheckedChanged(object sender, EventArgs e)
         {
-            lbSredniaTemperatura.Text = Zolw.SredniaTemperatura.ToString();
-            lbSredniaWilgotnosc.Text = Zolw.Wilgotnosc.ToString();
+            lbSredniaTemperatura.Text = Banan.SredniaTemperatura.ToString();
+            lbSredniaWilgotnosc.Text = Banan.Wilgotnosc.ToString();
 
-            Srednia = Zolw.SredniaTemperatura;
-            SredniaWilgotnosc = Zolw.Wilgotnosc;
+            Srednia = Banan.SredniaTemperatura;
+            SredniaWilgotnosc = Banan.Wilgotnosc;
 
             OdswiezWykres();
         }
@@ -702,10 +702,10 @@ namespace Terrarium_ZSI
 
         private void MinMax()
         {
-            if (rbLamparci.Checked)
+            if (rbArbuz.Checked)
             {
-                TempMin = Lamparci.MinimalnaTemperatura;
-                TempMax = Lamparci.MaksymalnaTemperatura;
+                TempMin = Arbuz.MinimalnaTemperatura;
+                TempMax = Arbuz.MaksymalnaTemperatura;
             }
 
             if (rbAnanas.Checked)
@@ -714,62 +714,62 @@ namespace Terrarium_ZSI
                 TempMax = Ananas.MaksymalnaTemperatura;
             }
 
-            if (rbOrzesiony.Checked)
+            if (rbFiga.Checked)
             {
-                TempMin = Orzesiony.MinimalnaTemperatura;
-                TempMax = Orzesiony.MaksymalnaTemperatura;
+                TempMin = Figa.MinimalnaTemperatura;
+                TempMax = Figa.MaksymalnaTemperatura;
             }
 
-            if (rbPlaczacy.Checked)
+            if (rbCytryna.Checked)
             {
-                TempMin = Placzacy.MinimalnaTemperatura;
-                TempMax = Placzacy.MaksymalnaTemperatura;
+                TempMin = Cytryna.MinimalnaTemperatura;
+                TempMax = Cytryna.MaksymalnaTemperatura;
             }
 
-            if (rbWaz.Checked)
+            if (rbMango.Checked)
             {
-                TempMin = Waz.MinimalnaTemperatura;
-                TempMax = Waz.MaksymalnaTemperatura;
+                TempMin = Mango.MinimalnaTemperatura;
+                TempMax = Mango.MaksymalnaTemperatura;
             }
 
-            if (rbZolw.Checked)
+            if (rbBanan.Checked)
             {
-                TempMin = Zolw.MinimalnaTemperatura;
-                TempMax = Zolw.MaksymalnaTemperatura;
+                TempMin = Banan.MinimalnaTemperatura;
+                TempMax = Banan.MaksymalnaTemperatura;
             }
         }
 
         private void Blanciki()
         {
-            Lamparci = new Plant();
-            Lamparci.MinimalnaTemperatura = 25;
-            Lamparci.MaksymalnaTemperatura = 30;
-            Lamparci.Wilgotnosc = 60;
-            Lamparci.SetSredniaTemperatura();
+            Arbuz = new Plant();
+            Arbuz.MinimalnaTemperatura = 25;
+            Arbuz.MaksymalnaTemperatura = 30;
+            Arbuz.Wilgotnosc = 60;
+            Arbuz.SetSredniaTemperatura();
 
-            Orzesiony = new Plant();
-            Orzesiony.MinimalnaTemperatura = 22;
-            Orzesiony.MaksymalnaTemperatura = 27;
-            Orzesiony.Wilgotnosc = 70;
-            Orzesiony.SetSredniaTemperatura();
+            Figa = new Plant();
+            Figa.MinimalnaTemperatura = 22;
+            Figa.MaksymalnaTemperatura = 27;
+            Figa.Wilgotnosc = 70;
+            Figa.SetSredniaTemperatura();
 
-            Placzacy = new Plant();
-            Placzacy.MinimalnaTemperatura = 25;
-            Placzacy.MaksymalnaTemperatura = 30;
-            Placzacy.Wilgotnosc = 80;
-            Placzacy.SetSredniaTemperatura();
+            Cytryna = new Plant();
+            Cytryna.MinimalnaTemperatura = 25;
+            Cytryna.MaksymalnaTemperatura = 30;
+            Cytryna.Wilgotnosc = 80;
+            Cytryna.SetSredniaTemperatura();
 
-            Waz = new Plant();
-            Waz.MinimalnaTemperatura = 27;
-            Waz.MaksymalnaTemperatura = 29;
-            Waz.Wilgotnosc = 60;
-            Waz.SetSredniaTemperatura();
+            Mango = new Plant();
+            Mango.MinimalnaTemperatura = 27;
+            Mango.MaksymalnaTemperatura = 29;
+            Mango.Wilgotnosc = 60;
+            Mango.SetSredniaTemperatura();
 
-            Zolw = new Plant();
-            Zolw.MinimalnaTemperatura = 26;
-            Zolw.MaksymalnaTemperatura = 28;
-            Zolw.Wilgotnosc = 45;
-            Zolw.SetSredniaTemperatura();
+            Banan = new Plant();
+            Banan.MinimalnaTemperatura = 26;
+            Banan.MaksymalnaTemperatura = 28;
+            Banan.Wilgotnosc = 45;
+            Banan.SetSredniaTemperatura();
 
             Ananas = new Plant();
             Ananas.MinimalnaTemperatura = 38;
